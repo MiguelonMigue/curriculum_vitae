@@ -2,7 +2,7 @@
 
 *{
     margin:0;
-    padding: 0;
+    padding: 10px;
 }
 
 body{
@@ -25,7 +25,7 @@ body{
 .presentacion__lateral{
     display: flex;
     flex-direction: column;
-    text-align: center;
+    text-align:start;
 }
 .titulo__presentacion{
     text-align: center;
@@ -38,12 +38,19 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
-.parrafo__presentacion{
+.parrafo__presentacion, .parrafo__presentacion__experiencia{
     font-family: 'Montserrat', sans-serif;
     color:#FFFAF0;
     font-size: 24px;
-    padding: 34px
+    
 }
+
+.subtitulo__presentacion__experiencia{
+    text-align: start;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
 
 .pie__de__pagina{
     text-align: center;
